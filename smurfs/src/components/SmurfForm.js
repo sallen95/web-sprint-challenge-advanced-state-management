@@ -20,7 +20,6 @@ const SmurfForm = (props) => {
     }
 
     const handleSubmit = (e) => {
-        e.preventDefault();
         props.addSmurf(formValues)
         setFormValues(initialFormValues)
 
